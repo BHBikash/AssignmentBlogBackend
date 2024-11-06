@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "b43f6b0c-733c-443a-94bb-a505de13b508",
+		"name": "Express js Backend Blog Project Structure",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38248011"
+	},
+	"item": [
+		{
+			"name": "createblog",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/api/createblog",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"createblog"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "readblog",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/api/readblog",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"readblog"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateblog",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/api/updateblog",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"updateblog"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteblog",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/api/deleteblog",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"deleteblog"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
